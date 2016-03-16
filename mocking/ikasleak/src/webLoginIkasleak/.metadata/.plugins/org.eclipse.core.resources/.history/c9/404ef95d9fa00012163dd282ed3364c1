@@ -1,0 +1,4 @@
+<center>
+    <% User currentUser = (User) (session.getAttribute("currentSessionUser"));%>
+	Welcome <%= currentUser.getFirstName() + " " + currentUser.getLastName() %>
+</center>

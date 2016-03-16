@@ -1,0 +1,24 @@
+package edu.mondragon.mgep.tdd.weblogin.model;
+
+import java.util.Properties;
+
+public class UserDAOFactory {
+
+	private static Properties props = new Properties();
+	
+	public static UserDAO UserDAO getUserDAO(){
+		try {
+		    
+			   Class daoClass = Class.forName( getClass() ); 
+			   return (UserDAO) daoClass.newInstance();   
+			  }
+			  catch (ClassNotFoundException e) { 
+			   e.printStackTrace();
+			   return null;
+			  }
+			  catch (Exception e) {
+			   e.printStackTrace();
+			   return null;   
+			  }
+	}
+}

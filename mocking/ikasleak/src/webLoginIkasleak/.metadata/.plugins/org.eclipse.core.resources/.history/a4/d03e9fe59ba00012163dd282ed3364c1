@@ -1,0 +1,7 @@
+package edu.mondragon.mgep.tdd.weblogin.controller;
+
+public class LoginServlet extends BaseServlet { 
+	public final static String PAGE_SELF = "index.jsp"; 
+	public final static String PAGE_NEXT = "/pages/wellcome.jsp"; 
+
+}

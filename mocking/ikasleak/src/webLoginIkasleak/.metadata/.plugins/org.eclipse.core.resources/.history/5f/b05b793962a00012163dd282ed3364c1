@@ -1,0 +1,49 @@
+package edu.mondragon.mgep.tdd.weblogin.test;
+
+import static org.junit.Assert.fail;
+
+import org.easymock.EasyMock;
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+
+import edu.mondragon.mgep.tdd.weblogin.model.LoginServiceImpl;
+import edu.mondragon.mgep.tdd.weblogin.model.UserDAO;
+
+public class LoginServiceTest {
+
+	private LoginServiceImpl service;
+    private UserDAO mockDao;
+    
+	@Before
+	public void setUp() throws Exception {
+		  service = new LoginServiceImpl();
+          mockDao = EasyMock.createStrictMock(UserDAO.class);
+          service.setUserDAO(mockDao);
+	}
+
+	@After
+	public void tearDown() throws Exception {
+	}
+
+	@Test
+	/**
+     * This method will test the "rosy" scenario of passing a valid
+     * username and password and retrieveing the user.  Once the user
+     * is returned to the service, the service will return true to
+     * the caller.
+     */
+     public void testRosyScenario() {
+		 User results = new User();
+         String userName = "testUserName";
+         String password = "testPassword";
+         String passwordHash = 
+              "=.";
+         EasyMock.expect(mockDao.loadByUsernameAndPassword(eq(userName), eq(passwordHash)))
+               .andReturn(results);
+
+         EasyMock.replay(mockDao);
+          assertTrue(service.login(userName, password));
+          verify(mockDao);*/
+     }
+ }

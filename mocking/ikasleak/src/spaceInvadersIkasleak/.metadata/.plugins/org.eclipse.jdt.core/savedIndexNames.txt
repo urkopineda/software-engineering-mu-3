@@ -1,0 +1,12 @@
+INDEX VERSION 1.126+E:\users\jaagirre\doc\mgep\ProcesosSoftware\tdd\src\spaceInvadersIkasleak\.metadata\.plugins\org.eclipse.jdt.core
+292563612.index
+1850372496.index
+3322489898.index
+2601212864.index
+1971796268.index
+209741810.index
+4228889070.index
+3838030082.index
+3072139168.index
+2309797907.index
+408092653.index

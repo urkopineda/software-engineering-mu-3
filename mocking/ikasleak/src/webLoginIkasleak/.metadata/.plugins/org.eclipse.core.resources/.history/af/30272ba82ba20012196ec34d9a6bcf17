@@ -1,0 +1,24 @@
+package edu.mondragon.mgep.tdd.weblogin.model.test;
+
+import edu.mondragon.mgep.tdd.weblogin.model.User;
+import edu.mondragon.mgep.tdd.weblogin.model.UserDAO;
+
+public class UserDAOMockRosy implements UserDAO{
+
+	String username;
+	String password;
+	
+	public  UserDAOMockRosy(){
+		this.username = "Rosy";
+		this.password = "";
+	}
+	
+	@Override
+	public User loadByUsernameAndPassword(String userName, String password) {
+		// TODO Auto-generated method stub
+		System.out.println("UserDAOMock ejecutado");
+		if ( userName.equals())
+		return null;
+	}
+
+}

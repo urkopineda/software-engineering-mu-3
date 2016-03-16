@@ -1,0 +1,7 @@
+package edu.mondragon.mgep.tdd.weblogin.model;
+
+public class User {
+	String username;
+	String firtsName;
+	String lastName;
+}

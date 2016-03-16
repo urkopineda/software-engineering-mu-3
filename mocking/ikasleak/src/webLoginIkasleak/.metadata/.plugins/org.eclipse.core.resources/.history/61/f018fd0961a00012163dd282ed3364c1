@@ -1,0 +1,11 @@
+package edu.mondragon.mgep.tdd.weblogin.model;
+
+public class LoginServiceImplementation implements LoginService {
+
+	@Override
+	public boolean login(String userName, String password) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

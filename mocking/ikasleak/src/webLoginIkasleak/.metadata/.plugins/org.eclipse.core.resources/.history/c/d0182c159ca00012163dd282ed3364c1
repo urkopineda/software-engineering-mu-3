@@ -1,0 +1,18 @@
+package edu.mondragon.mgep.tdd.weblogin.controller;
+
+public class LoginServlet extends BaseServlet { 
+	public final static String PAGE_SELF = "index.jsp"; 
+	public final static String PAGE_NEXT = "/pages/wellcome.jsp"; 
+	public final static String PAGE_ERROR = "index,jsp";//"/pages/error.jsp";
+
+	@Override
+	protected void doAction(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		String event = (String)req.getParameter("event");
+		
+		if (event == null ) {
+			init(req, resp);
+		}else{
+			this.login(req, resp);
+		}
+	}
+}

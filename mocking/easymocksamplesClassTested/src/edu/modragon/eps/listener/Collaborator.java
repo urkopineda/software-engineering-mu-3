@@ -19,6 +19,7 @@ package edu.modragon.eps.listener;
  * @author OFFIS, Tammo Freese
  */
 public interface Collaborator {
+
     void documentAdded(String title);
 
     void documentChanged(String title);
@@ -28,4 +29,5 @@ public interface Collaborator {
     byte voteForRemoval(String title);
 
     byte voteForRemovals(String... titles);
+
 }

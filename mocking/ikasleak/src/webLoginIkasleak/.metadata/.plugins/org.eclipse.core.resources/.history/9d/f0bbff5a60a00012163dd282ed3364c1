@@ -1,0 +1,5 @@
+package edu.mondragon.mgep.tdd.weblogin.model;
+
+public interface UserDAO {
+
+}

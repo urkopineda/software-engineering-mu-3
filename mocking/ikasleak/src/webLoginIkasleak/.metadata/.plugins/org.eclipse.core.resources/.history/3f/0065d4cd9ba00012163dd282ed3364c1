@@ -1,0 +1,5 @@
+package edu.mondragon.mgep.tdd.weblogin.controller;
+
+public class LoginServlet extends BaseServlet {
+
+}

@@ -1,0 +1,9 @@
+package edu.mondragon.mgep.tdd.weblogin.model;
+
+public class UserDAOFactory {
+
+	
+	public static UserDAO getUserDAO(){
+		
+	}
+}

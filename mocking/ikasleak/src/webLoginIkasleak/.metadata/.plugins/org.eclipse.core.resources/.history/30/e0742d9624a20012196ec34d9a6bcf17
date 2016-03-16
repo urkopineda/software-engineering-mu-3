@@ -1,0 +1,10 @@
+package edu.mondragon.mgep.tdd.weblogin.model;
+
+public class UserDaoFactory {
+	UserDao dao;
+	
+	public UserDaoFactory(){
+		dao = new 
+	}
+	
+}
