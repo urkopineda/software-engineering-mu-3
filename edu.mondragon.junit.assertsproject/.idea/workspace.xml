@@ -229,7 +229,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mocking/edu.mondragon.easymock.stock" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -824,7 +824,7 @@
       <workItem from="1458510611346" duration="599000" />
       <workItem from="1458538803699" duration="65000" />
       <workItem from="1458557757713" duration="74000" />
-      <workItem from="1458559227680" duration="1049000" />
+      <workItem from="1458559227680" duration="1230000" />
     </task>
     <servers />
   </component>
@@ -861,7 +861,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3840000" />
+    <option name="totallyTimeSpent" value="4021000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1368" height="743" extended-state="6" />
