@@ -43,5 +43,11 @@ public class CifradoCesar {
         cadena = cadenaCifrada; 
         return cadena; 
     }
+
+    public static void main(String[] args) {
+        CifradoCesar cc = new CifradoCesar("Todo lo que se preguntaba eran las mismas respuestas que buscamos el resto de nosotros. De donde vengo? A donde voy? Cuanto tiempo tengo? Todo lo que pude hacer fue sentarme y ver como moria.");
+        System.out.println(cc.cifrarCadena());
+        System.out.println(cc.descifrarCadena());
+    }
      
 } 
