@@ -1,0 +1,10 @@
+Las clases validas de entrada serían:
+	- Un string con formato "HH:MM:SS" o "HH:MM:SSpm".
+	- Los valores de HH deben ser entre 0 o 24, en el caso de "PM" solo entre 0 y 12.
+	- Los valores de MM deben oscilar entre 0 y 59.
+	- Los valores de SS deben oscilar entre 0 y 59.
+
+Las clases no válidas serían:
+	- Un string que no tuviera el formato correcto.
+	- Cualquier valor de HH, MM y SS fuera de su rango.
+
